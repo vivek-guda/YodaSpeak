@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoda Speak translator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <nav id="nav">
+        <h1 id="title">Yoda Speak</h1>
+    </nav>
+    <div id="content">
+        <textarea id="inputTxt" placeholder="Enter in English to convert to Yodish"></textarea>
+        <div id="buttons">
+            <button id="translatebtn">Translate</button>
+            <button id="tryagainbtn">Try again</button>
+        </div>
+        <div>
+            <h3>Ouput here 👇</h4>
+        </div>
+        <div id="outputTxt"></div>
+    </div>
+    <footer id="footer">
+        <div id="footercontent">
+            <h3>About</h3>
+            <p>Are you a fan of Yoda? Use this translator to convert from English to Yoda speak. Yoda often orders sentences as Object-Subject-Verb, split verbs, switches entire phrases and sometimes uses sentences that are different from his normal syntax!</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
